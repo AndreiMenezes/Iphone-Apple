@@ -6,11 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iPhone - Apple (Brasil)</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="./scripts.js"></script>
 </head>
 
 <body>
-    <div>
-        <p>Menu Superior</p>
+    <div class="caixa-roxa">
+        <img class="logo" src="./IMG Iphone/logo.png">
+        <ul>
+            <li>Mac</li>
+            <li>iPhone</li>
+            <li>iPad</li>
+            <li>Watch</li>
+            <li>AirPods</li>
+            <li>Acessórios</li>
+            <li>Suporte</li>
+        </ul>
     </div>
 
     <div class="caixa-azul">
@@ -25,10 +35,22 @@
             </p>
 
             <h3 class="preco">A partir de R$ 633,25/mês ou R$ 7.599*</h3>
-            <button>Comprar</button>
+            <button class="botao">Comprar</button>
+
+            <P class="escolha-cores">Escolha sua cor:</P>
+            <div>
+                <Button class="azul troca-cor"></Button>
+                <Button onclick="trocaCor('#F7DA47')" class="amarelo troca-cor"></Button>
+                <Button class="branco troca-cor "></Button>
+                <Button class="preto troca-cor"></Button>
+                <Button class="vermelho troca-cor"></Button>
+                <Button class="roxo troca-cor"></Button>
+            </div>
 
         </div>
-        <img src="/IMG Iphone/iphone-azul.png">
+
+        <div class="circulo"></div>
+        <img class="iphone" src="/IMG Iphone/iphone-azul.png">
     </div>
 </body>
 
