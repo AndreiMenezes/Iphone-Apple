@@ -1,4 +1,10 @@
-function trocaCor(cor) {
+
+function trocaCor(cor){
     let circulo = document.querySelector(".circulo")
-    circulo.style.background = "#F7DA47"
+    circulo.style.background = cor
+}
+
+function trocaImagem(imagem){
+    let imgIphone = document.querySelector(".iphone")
+    imgIphone.src = imagem
 }
